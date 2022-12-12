@@ -1,0 +1,35 @@
+.root {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(../assets/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: aliceblue;
+    }
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+.contact {
+         height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/contact.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+}
+
+.contact-box {
+    background-color: rgba(211,211,211,0.2);
+    height: 70vh;
+    border-radius: 10px;
+    width: 70vh;
+    padding: 10px 20px;
+}
+.contact-header {
+    font-size: 4rem;
+}
